@@ -1,3 +1,9 @@
 [build]
   publish = ".next"
   command = "npm run build"
+
+[[redirects]]
+  from = "https://dev-misinfo-dashboard.netlify.app/*"
+  to = "https://dev-truthsleuthlocal.netlify.app/:splat"
+  status = 301
+  force = true
